@@ -70,7 +70,21 @@
 .header .box-header .box:nth-child(1) .menu-nav ul li{
     margin-inline: 20px;
     list-style-type: none;
+    font-size: 12px;;
 }
+.header .box-header .box:nth-child(1) .menu-nav button{
+    color: white;
+    padding: 4px 15px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.98);
+}
+
 
 .header .box-header .box:nth-child(1) .menu-nav ul li a {
     color: white;
@@ -355,7 +369,7 @@
 .service h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .service .box-service {
@@ -366,7 +380,7 @@
 }
 
 .service .box-service .box{
-    width: 300px;
+    width: 200px;
     text-align: center;
 }
 
